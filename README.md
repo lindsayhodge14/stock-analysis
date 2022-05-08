@@ -1,20 +1,20 @@
 ### stock-analysis
-#Module 2 Stock Analysis using VBA
+# Module 2 Stock Analysis using VBA
 
-##Overview of Project
+## Overview of Project
 This project was intended to aid Steve in his assessment of stocks for his parents. Code from the original analysis on greenstocks was refactored to improve its runtime on larger data sets. This was necessary to include the entire stock market in our anaylsis.
 
-##Results
+## Results
 
-#The images below demonstrates my ability to improve the run time of my code.
-The intial run time for 2017 was .7695312.
-The intial run time for 2018 was .765623.
+# The images below demonstrates my ability to improve the run time of my code.
+The intial run time for 2017 was # .7695312.
+The intial run time for 2018 was # .765623.
 
-![VBA_Challenge_2017.png](lindsayhodge14/stock-analysis/resources)
+![VBA_Challenge_2017.png](resources/VBA_Challenge_2017.png)
 
-![VBA_Challenge_2018.png](lindsayhodge14/stock-analysis/resources)
+![VBA_Challenge_2018.png](resources/VBA_Challenge_2018.png)
 
-#The following code helped me to accomplish this task for Steve.
+# The following code helped me to accomplish this task for Steve.
 
 '1a) Create a ticker Index
 
@@ -74,10 +74,10 @@ Next i
     
 Next i
 
-##Summary
+## Summary
 
-#Pros/Cons of the Original Code
+# Pros/Cons of the Original Code
 The original code was easier to construct, as it was able to make direct callouts to positions/places in the various worksheets. However, because it is constructed in a manner that is specific to the greenstocks data it will need to be updated and reassessed alongside any changes to the data. Considering how frequenty stocks need to be analyzed, it is inefficient to manually alter this code each time new data is imported.
 
-#Pros/Cons of Refactored Code
+# Pros/Cons of Refactored Code
 The refactored code was difficult to construct because it was a more comprehensive code that allowed the computer to identify various boundries and features of the data. However, writing the code in this manner allows the macro to be run on any stock data that shares the same overlying worksheet structure. Additionally, it drastically improves the run time of the code. The time invested in constructing this more comprehensive code is repaid when no manual alterations are necessary to analyze new stock data. 

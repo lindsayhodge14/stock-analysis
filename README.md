@@ -6,7 +6,7 @@ This project was intended to aid Steve in his assessment of stocks for his paren
 
 ## Results
 
-# The images below demonstrates my ability to improve the run time of my code.
+### The images below demonstrates my ability to improve the run time of my code.
 The intial run time for 2017 was  .7695312.
 The intial run time for 2018 was  .765623.
 
@@ -14,7 +14,7 @@ The intial run time for 2018 was  .765623.
 
 ![VBA_Challenge_2018.png](resources/VBA_Challenge_2018.png)
 
-# The following code helped me to accomplish this task for Steve.
+### The following code helped me to accomplish this task for Steve.
 
 '1a) Create a ticker Index
 
